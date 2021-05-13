@@ -1,6 +1,6 @@
 case_name,fluid,p0,pL,mu,porous_medium,length,K,eps
-base,water,0.000,-100.000,0.001,sand,1.000,1.00E-09,0.150
-long,water,0.000,-100.000,0.001,sand,2.000,1.00E-09,0.150
-press,water,100.000,-100.000,0.001,sand,1.000,1.00E-09,0.150
-powder,water,0.000,-100.000,0.001,powder,1.000,1.00E-11,0.300
-oil,oil,0.000,-100.000,0.060,sane,1.000,1.00E-09,0.150
+base,water,0,-100,0.001,sand,1,1.00E-09,0.15
+long,water,0,-100,0.001,sand,2,1.00E-09,0.15
+press,water,100,-100,0.001,sand,1,1.00E-09,0.15
+powder,water,0,-100,0.001,powder,1,1.00E-11,0.3
+oil,oil,0,-100,0.06,sane,1,1.00E-09,0.15
