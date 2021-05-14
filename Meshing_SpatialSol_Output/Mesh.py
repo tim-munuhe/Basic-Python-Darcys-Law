@@ -1,7 +1,6 @@
 # Import packages
 import csv # Read in case parameters and write out solutions
 import numpy as np
-from scipy import sparse
 
 class case_param(): 
     def __init__(self,param): 
@@ -56,17 +55,17 @@ with open('casefile.csv',newline='') as casefile:
         i += 1         
 caselist[0]['dx']
 base = case_param(caselist[0]) # base case object
-print(base.x0)
-print(base.dx)
+print('Inlet:',base.x0)
+print('Spacing:',base.dx)
 
 base_mesh = mesh(base) # base mesh object
 
 Nx = base_mesh.Nx # too much text for commonly used variable
 
 # Cursory Check
-print(base_mesh.x[0:5])
-print(Nx)
-print(base_mesh.x[Nx])
+print('Inlet and spacing check:',base_mesh.x[0:5])
+print('Number of nodes:',Nx)
+print('Outlet:',base_mesh.x[Nx-1])
 
 base_mesh.output('base_mesh.dat') # Output mesh to file for full confirmation
 
