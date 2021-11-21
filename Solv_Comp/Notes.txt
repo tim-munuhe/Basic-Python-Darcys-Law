@@ -1,0 +1,22 @@
+- matrix has to be symmetric positive definite
+  -> = 0.5*(A + A^T) where A^T is transpose of randomly generated square matrix A
+- iterative solvers: conjugate gradient, gauss-seidel
+- direct solvers: gauss-jordan, LU/cholesky factorization
+
+
+for debug
+- A one time, b one time, and x by iteration
+
+Suspect matrix generation process is not good for current system
+-> add some factor to diagonal to make matrix positive definite
+
+if (N < 10): x_out = np.copy(x)
+
+if (N < 10): np.hstack((x_out, x))
+
+
+
+
+Blog Post Notes
+- Check solution methods 
+

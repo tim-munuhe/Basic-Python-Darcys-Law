@@ -1,0 +1,6 @@
+case_name,fluid,p0,pL,mu,porous_medium,length,dx,K,eps
+N20,water,0,-100,0.001,sand,1,0.05,1.00E-09,0.15
+N40,water,0,-100,0.001,sand,1,0.025,1.00E-09,0.15
+N50,water,0,-100,0.001,sand,1,0.02,1.00E-09,0.15
+N80,water,0,-100,0.001,sand,1,0.0125,1.00E-09,0.15
+N100,water,0,-100,0.001,sand,1,0.01,1.00E-09,0.15
